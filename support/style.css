@@ -7,6 +7,11 @@ body {
   margin-bottom: 40px;
   margin-right: 40px;
 }
+#margin{
+  margin-left:25%;
+  padding:1px 16px;
+  height:1000px;
+}
 /* h1 centered, bold and bigger size*/
 h1 {
   text-align: center;
@@ -71,7 +76,7 @@ th {
   font-size: 20px;
   padding: 8px;
   text-align: center;
-  font-weight: bold;
+  font-weight: bold
 }
 td {
   border: 1px solid RebeccaPurple;
@@ -141,8 +146,9 @@ a.link {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 300px;
   position: fixed;
+
 }
 li a {
   display: block;
