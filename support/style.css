@@ -1,51 +1,166 @@
-<!DOCTYPE html>
-<html lang="en-US">
+body {
+/* All text in Century Gothic */
+  background-color: lavender;
+  font-family: Century Gothic;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+#margin{
+  margin-left:25%;
+  padding:1px 16px;
+  height:1000px;
+}
+/* h1 centered, bold and bigger size*/
+h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: RoyalBlue;
+}
+/* h2 centered and bold */
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color: Indigo;
+}
+/* h1 id name Laura Jaimes */
+#name {
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: Purple;
+  text-shadow: 2px 2px 5px HotPink;
+  background: linear-gradient(to bottom, FloralWhite, Plum);
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  width: 300px;
+}
+/* h1 id background bigger*/
+#background {
+  font-size: 25px;
+  color: Indigo;
+  }
+ /* p justify and bigger*/
+p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5;
+}
+/* link to main */
+#home {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-style: italic;
+  background: lightpink;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#home:hover {
+  background-color: lightblue;
+}
+/* paragraph lists*/
+dl {
+  font-size: 20px;
+}
+/* TableOption start */
+table {
+  background-color: CornflowerBlue;
+  border-collapse: collapse;
+}
+th {
+  border: 1px solid RebeccaPurple;
+  font-size: 20px;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold
+}
+td {
+  border: 1px solid RebeccaPurple;
+  padding: 8px;
+  text-align: justify;
+}
+tr:hover {
+  background-color: DarkSlateGrey;
+}
+/* TableOption End */
+/* LinksOption start */
+a {
+  color: Indigo;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+a:hover {
+  color: Peru;
+  background-color: Silver;
+  border: 2px solid Peru;
+}
+a.link {
+  font-size: 150%;
+}
+/* LinksOption end */
 
-<head>
-  <link rel="stylesheet" href="support/style.css">
-<title>Laura Jaimes</title>
-</head>
-<body>
-<!-- MenuOption start  -->
-	<ul class="navbar">
-	  <li><a href="https://geolaurajaimes.github.io/Index.html#home">Home</a></li>
-	  <li><a href="https://geolaurajaimes.github.io/background.html#background"> Background </a></li>
-	  <li><a href="https://geolaurajaimes.github.io/about.html#about"> About </a></li>
-	</ul>
-	<!-- MenuOption end  -->
-<div id="margin">
-	<h1 id= "name" >Laura Jaimes</h1>
-	
-	<!-- Section about me based in my linkedIn profile  -->
-	<h2>About me</h2>
-	<p>I am a geologist with a focus on assertive communication, critical thinking, and adaptability. My specialization lies in geological, engineering geological, and geomorphological mapping, along with practical applications of GIS technology. I have a proven proficiency in identifying and characterizing natural hazards such as floods, flash floods, and landslides and assessing their impact on the population.</p>
-	<p>You can learn more about my professional journey as a seasoned geologist and GIS specialist by visiting my LinkedIn profile. Additionally, I invited you to explore my skills and background section to understand better my passion for geosciences and GIS applied to significant projects in various regions of Colombia.</p>
-	<p>I completed my geology degree at the Industrial University of Santander (Colombia) and have a robust background in GIS, which is strengthening with my current formation as a GIS Specialist at Fleming College.</p>
-	<p>Over the years, I've been involved in a range of investigation projects, including engineering geological and geomorphological mapping, landslide susceptibility zonation, flood and flash flood hazard zonation, urban cadaster planning, and environmental consulting for both public and private sectors. I am also eligible to become a GIT.</p>
+/* div with border stack for link with background.html*/
+/* div taken and modified w3school*/
 
-	<dl>
-	<dt>Projects as a Geologist</dt>
-	<dd>- Geological ingineering geological and geomorphological mapping in Surata for a dam construction</dd>
-	<dd>- Geological ingineering geological and geomorphological mapping in Bolivar for Natural hazards</dd>
-	<dd>- Geological ingineering geological and geomorphological mapping in Cienaga Zapatosa for Natural hazards</dd>
-	<dd>- Intern: Morphological and Morphodynamical Aspects Applied to the Zoning of Relative Hazard by Landslide in Plate 119 Barrancabermeja.</dd>
-	<dt>Projects as a GIS Analyst</dt>
-	<dd>- Territorial Planning Plan of the Municipality of Piedecuesta.</dd>
-	<dd>- SILAP (Local System of Protected Areas) San Silvestre swamp</dd>
-	<dd>- SILAP (Local System of Protected Areas) La Cira swamp.</dd>
-	<dd>- SILAP (Local System of Protected Areas) La Cira Forest.</dd>
-	<dd>- PMA (Environmental Management Plan) Juan Estan swamp</dd>
-	<dd>- PORH (Water Management Plan) San Silvestre swamp</dd>
-	<dd>- Dynamic cadastre</dd>
-	<dd>- Cadastral property conflicts</dd>
-	</dl>
-	<!-- div bar taken and modified w3school -->
+.container {
+  position: relative;
+}
 
-	<div class="container">
-	  <div class="hard-skills"><a href = "https://geolaurajaimes.github.io/background.html#skillh">Hard skills</a></div>
-	  <div class="soft-skills"><a href = "https://geolaurajaimes.github.io/background.html#skills">Soft skills</a></div>
-	  <div class="experience"><a href = "https://geolaurajaimes.github.io/background.html#background">Background</a></div>
-	</div>
-</div>
-</body>
-</html>
+.hard-skills {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  background: lightpink;
+  height: 100px;
+  left: 120 px;
+  width: 55%;
+  margin: 30px;
+}
+.experience {
+  position: absolute;
+  z-index: 2; 
+  background: lightgreen;
+  border: 2px solid black;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+.soft-skills {
+  position: absolute;
+  z-index: 3;
+  background: lightblue;
+  border: 2px solid black;
+  height: 60px;  
+  width: 70%;
+  left: 100px;
+  top: 50px;
+}
+/*MenuOption start*/
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+li a {
+  display: block;
+  text-align: center;
+  color: AliceBlue;
+  background-color: Teal;
+  padding: 8 px 16px;
+  text-decoration: none;
+  }
+li a:hover {
+  background-color: Black;
+  color: white;
+}
+/*MenuOption end*/
