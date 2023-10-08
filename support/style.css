@@ -2,25 +2,30 @@ body {
   background-color: lavender;
   font-family: Century Gothic;
 }
-
+/* All text in Century Gothic */
 h1 {
-  color: linen;
-  font-family: century gothic;
   text-align: center;
+  font-size: 25px;
+  font-weight: bold
 }
 h2 {
   text-align: center;
 }
 #name {
-  font-family: century gothic;
-  font-size: 30 px;
+  font-size: 30px;
+  letter-spacing: 2px
 }
-
+#background {
+  font-size: 25px;
+  }
 p {
-  font-family: century gothic;
   font-size: 20px;
+  text-align: justify;
 }
-
+dl {
+  font-size: 20px;
+  text-align: justify;
+}
 .container {
   position: relative;
 }
@@ -35,8 +40,9 @@ p {
 }
 .experience {
   position: absolute;
-  z-index: 2; /* green box will be above black box */
+  z-index: 2; 
   background: lightgreen;
+  border: 2px solid black;
   width: 35%;
   left: 270px;
   top: -15px;
