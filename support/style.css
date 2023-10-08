@@ -3,29 +3,53 @@ body {
   font-family: Century Gothic;
 }
 /* All text in Century Gothic */
+/* h1 centered, bold and bigger */
 h1 {
   text-align: center;
   font-size: 25px;
   font-weight: bold
 }
+/* h2 centered and bold */
 h2 {
   text-align: center;
+  font-weight: bold
 }
+/* h1 id name bigger and spaced */
 #name {
   font-size: 30px;
   letter-spacing: 2px
 }
+/* h1 id background bigger*/
 #background {
   font-size: 25px;
   }
+ /* p justify and bigger*/
 p {
   font-size: 20px;
   text-align: justify;
 }
+/* link to main */
+#home {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-style: italic;
+  background: lightpink;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#home.hover {
+  background: black;
+  color: white;
+}
+/* p lists*/
 dl {
   font-size: 20px;
   text-align: justify;
 }
+/* div with border stack for link with background.html*/
+/* div taken and modified w3school*/
+ 
 .container {
   position: relative;
 }
