@@ -1,30 +1,33 @@
 body {
+/* All text in Century Gothic */
   background-color: lavender;
   font-family: Century Gothic;
 }
-/* All text in Century Gothic */
-/* h1 centered, bold and bigger */
+
+/* h1 centered, bold and bigger size*/
 h1 {
   text-align: center;
   font-size: 25px;
-  font-weight: bold
+  font-weight: bold;
+  color: RoyalBlue;
 }
 /* h2 centered and bold */
 h2 {
   text-align: center;
   font-weight: bold;
-  color: CornflowerBlue;
+  color: Indigo;
 }
 /* h1 id name bigger and spaced */
 #name {
   font-size: 30px;
   letter-spacing: 2px;
-  background: linear-gradient(to bottom, FloralWhite, Lavender);
+  color: Purple;
+  background: linear-gradient(to bottom, FloralWhite, Plum);
 }
 /* h1 id background bigger*/
 #background {
   font-size: 25px;
-  color: CornflowerBlue
+  color: Indigo
   }
  /* p justify and bigger*/
 p {
@@ -43,25 +46,24 @@ p {
   transition: background-color 0.3s ease;
 }
 #home.hover {
-  background: black;
-  color: white;
+  background-color: lightblue;
 }
-/* p lists*/
+/* paragrapho lists*/
 dl {
   font-size: 20px;
   text-align: justify;
 }
 a {
-  color: CornflowerBlue;
+  color: Plum;
   text-decoration: none;
   transition: color 0.3s;
 }
 a.link {
   font-weight: bold;
-  color: pink;
+  color: Sienna;
 }
 a.hover {
-  color: CornflowerBlue;
+  color: Indigo;
 }
 /* div with border stack for link with background.html*/
 /* div taken and modified w3school*/
