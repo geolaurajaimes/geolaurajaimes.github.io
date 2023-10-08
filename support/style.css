@@ -13,18 +13,18 @@ h1 {
 h2 {
   text-align: center;
   font-weight: bold;
-  color: darklavender;
+  color: CornflowerBlue;
 }
 /* h1 id name bigger and spaced */
 #name {
   font-size: 30px;
-  letter-spacing: 2px
-  background: linear-gradient(to bottom, darklavender, lavender);
+  letter-spacing: 2px;
+  background: linear-gradient(to bottom, FloralWhite, Lavender);
 }
 /* h1 id background bigger*/
 #background {
   font-size: 25px;
-  color: darklavender;
+  color: CornflowerBlue
   }
  /* p justify and bigger*/
 p {
@@ -52,7 +52,7 @@ dl {
   text-align: justify;
 }
 a {
-  color: darklavender;
+  color: CornflowerBlue;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -61,7 +61,7 @@ a.link {
   color: pink;
 }
 a.hover {
-  color: darklavender;
+  color: CornflowerBlue;
 }
 /* div with border stack for link with background.html*/
 /* div taken and modified w3school*/
