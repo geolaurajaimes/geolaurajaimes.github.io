@@ -71,7 +71,7 @@ th {
   font-size: 20px;
   padding: 8px;
   text-align: center;
-  font-weight: bold
+  font-weight: bold;
 }
 td {
   border: 1px solid RebeccaPurple;
@@ -112,6 +112,8 @@ a.link {
   border: 2px solid black;
   background: lightpink;
   height: 100px;
+  left: 120 px;
+  width: 55%;
   margin: 30px;
 }
 .experience {
@@ -131,7 +133,7 @@ a.link {
   border: 2px solid black;
   height: 60px;  
   width: 70%;
-  left: 50px;
+  left: 100px;
   top: 50px;
 }
 /*MenuOption start*/
@@ -140,6 +142,7 @@ a.link {
   margin: 0;
   padding: 0;
   width: 200px;
+  position: fixed;
 }
 li a {
   display: block;
