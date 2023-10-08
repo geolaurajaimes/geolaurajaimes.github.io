@@ -45,7 +45,7 @@ p {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-#home.hover {
+#home:hover {
   background-color: lightblue;
 }
 /* paragrapho lists*/
@@ -53,21 +53,46 @@ dl {
   font-size: 20px;
   text-align: justify;
 }
+/* TableOption start */
+table {
+  background-color: WhiteSmoke;
+  border-collapse: collapse;
+}
+th {
+  border: 1px solid RebeccaPurple;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold
+}
+td {
+  border: 1px solid RebeccaPurple;
+  padding: 8px;
+  text-align: justify;
+}
+tr:hover {
+  background-color: HoneyDew;
+}
+/* TableOption End */
+/* LinksOption start */
 a {
-  color: Plum;
+  color: Magenta;
   text-decoration: none;
+  font-weight: bold;
   transition: color 0.3s;
 }
+a:hover {
+  color: Violet;
+  background-color: Silver;
+  border: 2px solid Violet;
+}
 a.link {
-  font-weight: bold;
-  color: Sienna;
+  font-size: 150%;
 }
-a.hover {
-  color: Indigo;
-}
+/* LinksOption end */
+
 /* div with border stack for link with background.html*/
 /* div taken and modified w3school*/
- 
+
 .container {
   position: relative;
 }
