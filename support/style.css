@@ -1,0 +1,54 @@
+body {
+  background-color: lavender;
+  font-family: Century Gothic;
+}
+
+h1 {
+  color: linen;
+  font-family: century gothic;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+#name {
+  font-family: century gothic;
+  font-size: 30 px;
+}
+
+p {
+  font-family: century gothic;
+  font-size: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+.hard-skills {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  background: lightpink;
+  height: 100px;
+  margin: 30px;
+}
+.experience {
+  position: absolute;
+  z-index: 2; /* green box will be above black box */
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+.soft-skills {
+  position: absolute;
+  z-index: 3;
+  background: lightblue;
+  border: 2px solid black;
+  height: 60px;  
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
