@@ -146,9 +146,10 @@ a.link {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 300px;
+  width: 25%;
   position: fixed;
-
+  height: 100%;
+  overflow: auto;
 }
 li a {
   display: block;
