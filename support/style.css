@@ -117,7 +117,7 @@ a.link {
   border: 2px solid black;
   background: lightpink;
   height: 100px;
-  left: 120 px;
+  left: 120px;
   width: 55%;
   margin: 30px;
 }
@@ -156,7 +156,7 @@ li a {
   text-align: center;
   color: AliceBlue;
   background-color: Indigo;
-  padding: 8 px 16px;
+  padding: 8px 16px;
   text-decoration: none;
   }
 li a:hover {
