@@ -1,5 +1,6 @@
 body {
 /* All text in Century Gothic */
+/* All color names from W3 School */
   background-color: lavender;
   font-family: Century Gothic;
   margin-top: 20px;
@@ -7,11 +8,14 @@ body {
   margin-bottom: 40px;
   margin-right: 40px;
 }
+/* id margin for navbar Menu option start*/
 #margin{
   margin-left:25%;
   padding:1px 16px;
   height:1000px;
 }
+/* id margin for navbar Menu option start*/
+/* style of head 1 */
 /* h1 centered, bold and bigger size*/
 h1 {
   text-align: center;
@@ -19,6 +23,7 @@ h1 {
   font-weight: bold;
   color: RoyalBlue;
 }
+/* style headings 2 */
 /* h2 centered and bold */
 h2 {
   text-align: center;
